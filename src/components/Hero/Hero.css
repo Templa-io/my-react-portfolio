@@ -293,12 +293,11 @@ a.github {
   .dpic > :nth-child(2) {
     display: block;
     bottom: 0;
-    left: 6rem;
+    left: 3rem;
     width: 20rem;
     height: 25rem;
   }
   .dpic > img {
-    position: relative;
     top: 3rem;
     left: 5rem;
     width: 15rem;
