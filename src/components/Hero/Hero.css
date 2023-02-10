@@ -307,7 +307,7 @@ a.github {
 .dpic > img {
   position: relative;
   top: 3rem;
-  right: 3rem;
+  left: 3rem;
   width: 20rem;
   height: 30rem;
   padding-bottom: 5rem;
