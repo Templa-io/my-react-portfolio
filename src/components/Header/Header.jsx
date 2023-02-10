@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="logo-name">ZEPH</div>
+      <div className="logo-name">STK-io</div>
       {menuOpened === false && mobile === true ? (
         <div
           style={{
