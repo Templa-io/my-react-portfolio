@@ -264,6 +264,8 @@ a.github {
     justify-content: center;
   }
   .boost-build {
+    display: flex;
+    flex-direction: column;
     margin-top: 0;
     font-size: large;
     align-self: center;
