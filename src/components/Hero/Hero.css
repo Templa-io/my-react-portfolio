@@ -307,8 +307,8 @@ a.github {
   .socials {
     display: flex;
     align-items: center;
-    left: 3rem;
-    top: 50rem;
+    left: 4rem;
+    top: 40rem;
     padding: 20px;
   }
   .arrows {
