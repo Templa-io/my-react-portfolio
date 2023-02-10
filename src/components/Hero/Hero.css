@@ -272,10 +272,10 @@ a.github {
     transform: scale(0.8);
   }
 }
-.boost-build.chip {
+.boost-build > :nth-child(1) {
   display: flex;
 }
-.boost-build .microchip {
+.boost-build > :nth-child(2) {
   display: flex;
 }
 .right-h {
@@ -289,6 +289,7 @@ a.github {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  right: 3rem;
 }
 
 .dpic > :nth-child(1) {
