@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-name {
+  width: 15rem;
+  font-size: 2rem;
+  height: 5rem;
+  font-weight: bold;
+  font-family: "Ubuntu-Mono", monospace;
+  color: var(--coffee);
+  padding-top: 0rem;
+}
+.header-menu {
+  list-style: none;
+  font-size: 1rem;
+  color: var(--coffee);
+  display: flex;
+  gap: 2rem;
+  color: black;
+}
+.header-menu > li {
+  cursor: pointer;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: var(--orange);
+}
+
+.header-menu > li:hover {
+  cursor: pointer;
+  color: var(--orange);
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 2rem;
+  }
+}
