@@ -49,18 +49,18 @@ const container = {
 const WorkPage = (props) => {
   const ref = useRef(null);
 
-  // useEffect(() => {
-  //   let element = ref.current;
+  useEffect(() => {
+    let element = ref.current;
 
-  //   const rotate = () => {
-  //     element.style.transform = `translateX(${-window.pageYOffset}px)`;
-  //   };
+    const rotate = () => {
+      element.style.transform = `translateX(${-window.pageYOffset}px)`;
+    };
 
-  //   window.addEventListener("scroll", rotate);
-  //   return () => {
-  //     window.removeEventListener("scroll", rotate);
-  //   };
-  // }, []);
+    window.addEventListener("scroll", rotate);
+    return () => {
+      window.removeEventListener("scroll", rotate);
+    };
+  }, []);
 
   return (
     <ThemeProvider theme={DarkTheme}>
@@ -72,11 +72,9 @@ const WorkPage = (props) => {
 
         <SocialIcons theme />
 
-        <Main variants={container} initial="hidden" animate="show">
+        <Main ref={ref} variants={container} initial="hidden" animate="show">
           {Work.map((d) => (
-            <div style={{ overflowX: "scroll", width: "100%", height: "40vh" }}>
-              <Card key={d.id} data={d} />
-            </div>
+            <Card key={d.id} data={d} />
           ))}
         </Main>
 
