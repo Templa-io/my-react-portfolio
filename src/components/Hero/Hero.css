@@ -299,10 +299,9 @@ a.github {
   }
   .socials {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    right: 2rem;
-    top: 30rem;
+    left: 2rem;
+
     padding: 20px;
   }
   .arrows {
