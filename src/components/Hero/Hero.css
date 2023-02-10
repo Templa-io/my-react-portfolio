@@ -253,6 +253,7 @@ a.github {
   .reliable-add {
     font-size: medium;
     display: flex;
+    font-size: 3rem;
     text-align: center;
     justify-content: center;
   }
@@ -262,7 +263,7 @@ a.github {
   }
   .boost-build {
     margin-top: 0;
-    font-size: medium;
+    font-size: large;
     align-self: center;
     transform: scale(0.8);
   }
