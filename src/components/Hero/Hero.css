@@ -244,6 +244,8 @@ a.github {
   }
 
   .our-work {
+    display: flex;
+    flex-direction: column;
     margin-top: 0;
     font-size: small;
     align-self: center;
@@ -251,8 +253,9 @@ a.github {
   }
 
   .reliable-add {
-    font-size: medium;
+    font-size: large;
     display: flex;
+    width: 3rem;
     font-size: 3rem;
     text-align: center;
     justify-content: center;
