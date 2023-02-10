@@ -265,7 +265,7 @@ a.github {
   }
   .boost-build {
     display: flex;
-    flex-direction: column;
+    flex-direction: col;
     margin-top: 0;
     font-size: large;
     align-self: center;
@@ -285,12 +285,16 @@ a.github {
   }
 
   .dpic > :nth-child(1) {
+    display: flex;
     position: relative;
+    justify-content: center;
     display: none;
     width: 25rem;
     height: 35rem;
   }
   .dpic > :nth-child(2) {
+    display: flex;
+    justify-content: center;
     display: block;
     bottom: 0;
     left: 0;
