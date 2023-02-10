@@ -53,7 +53,7 @@ const WorkPage = (props) => {
     let element = ref.current;
 
     const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset}px)`;
+      element.style.transform = `translateY(${-window.pageYOffset}px)`;
     };
 
     window.addEventListener("scroll", rotate);
