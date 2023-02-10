@@ -289,7 +289,7 @@ a.github {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  right: 3rem;
+  right: 5rem;
 }
 
 .dpic > :nth-child(1) {
