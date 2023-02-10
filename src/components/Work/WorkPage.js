@@ -29,7 +29,7 @@ const Main = styled(motion.ul)`
   left: calc(10rem + 15vw);
   height: 40vh;
   display: flex;
-  overflow-x: scroll;
+
   color: white;
 `;
 
@@ -74,7 +74,9 @@ const WorkPage = (props) => {
 
         <Main variants={container} initial="hidden" animate="show">
           {Work.map((d) => (
-            <Card key={d.id} data={d} />
+            <div style={{ overflowX: "scroll", width: "100%", height: "40vh" }}>
+              <Card key={d.id} data={d} />
+            </div>
           ))}
         </Main>
 
