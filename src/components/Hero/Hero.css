@@ -275,6 +275,12 @@ a.github {
     background: none;
     bottom: 20rem;
   }
+  .dpic {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .dpic > :nth-child(1) {
     position: relative;
