@@ -85,7 +85,7 @@
 .boost-build {
   display: flex;
   gap: 5rem;
-  padding-top: 7rem;
+  padding-top: 3rem;
   font-size: 1rem;
 }
 .boost-build > :nth-child(1) {
@@ -151,7 +151,7 @@ a.github {
 .dpic > img {
   position: absolute;
   width: 25rem;
-  height: 45rem;
+  height: 40rem;
   object-fit: cover;
   right: 12rem;
   top: 2rem;
