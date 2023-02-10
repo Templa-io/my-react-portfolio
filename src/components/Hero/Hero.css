@@ -271,88 +271,94 @@ a.github {
     align-self: center;
     transform: scale(0.8);
   }
-  .right-h {
-    position: relative;
-    flex-direction: column;
-    background: none;
-    bottom: 20rem;
-  }
-  .dpic {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+}
+.boost-build > :nth-child(1) {
+  display: flex;
+}
+.boost-build > :nth-child(2) {
+  display: flex;
+}
+.right-h {
+  position: relative;
+  flex-direction: column;
+  background: none;
+  bottom: 20rem;
+}
+.dpic {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .dpic > :nth-child(1) {
-    position: relative;
-    display: none;
-    width: 25rem;
-    height: 35rem;
-  }
-  .dpic > :nth-child(2) {
-    display: block;
-    bottom: 0;
-    left: 0;
-    width: 20rem;
-    height: 25rem;
-  }
-  .dpic > img {
-    position: relative;
-    top: 3rem;
-    right: 0;
-    width: 20rem;
-    height: 30rem;
-    padding-bottom: 2rem;
+.dpic > :nth-child(1) {
+  position: relative;
+  display: none;
+  width: 25rem;
+  height: 35rem;
+}
+.dpic > :nth-child(2) {
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 20rem;
+  height: 25rem;
+}
+.dpic > img {
+  position: relative;
+  top: 3rem;
+  right: 0;
+  width: 20rem;
+  height: 30rem;
+  padding-bottom: 2rem;
 
-    align-self: center;
-  }
-  .socials {
-    display: flex;
-    align-items: center;
-    left: 2rem;
-    top: 50rem;
-    padding: 20px;
-  }
-  .arrows {
-    position: absolute;
-    right: 50px;
-    overflow: hidden;
-  }
+  align-self: center;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  left: 2rem;
+  top: 50rem;
+  padding: 20px;
+}
+.arrows {
+  position: absolute;
+  right: 50px;
+  overflow: hidden;
+}
 
-  .arrows {
-    background-color: black;
-    border: none;
-    border-radius: 50rem;
-    width: 15rem;
-  }
-  a.socials:hover {
-    transform: translateY(-2px);
-  }
-  a.socials {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-  }
-  a.linkedin {
-    color: black;
-  }
+.arrows {
+  background-color: black;
+  border: none;
+  border-radius: 50rem;
+  width: 15rem;
+}
+a.socials:hover {
+  transform: translateY(-2px);
+}
+a.socials {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.linkedin {
+  color: black;
+}
 
-  a.behance {
-    color: black;
-  }
+a.behance {
+  color: black;
+}
 
-  a.twitter {
-    color: black;
-  }
+a.twitter {
+  color: black;
+}
 
-  a.github {
-    color: black;
-  }
-  .Line {
-    color: black;
-  }
-  .first-div > span:nth-child(2) {
-    padding: 0 1rem;
-  }
+a.github {
+  color: black;
+}
+.Line {
+  color: black;
+}
+.first-div > span:nth-child(2) {
+  padding: 0 1rem;
 }
