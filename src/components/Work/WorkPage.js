@@ -49,18 +49,18 @@ const container = {
 const WorkPage = (props) => {
   const ref = useRef(null);
 
-  useEffect(() => {
-    let element = ref.current;
+  // useEffect(() => {
+  //   let element = ref.current;
 
-    const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset}px)`;
-    };
+  //   const rotate = () => {
+  //     element.style.transform = `translateX(${-window.pageYOffset}px)`;
+  //   };
 
-    window.addEventListener("scroll", rotate);
-    return () => {
-      window.removeEventListener("scroll", rotate);
-    };
-  }, []);
+  //   window.addEventListener("scroll", rotate);
+  //   return () => {
+  //     window.removeEventListener("scroll", rotate);
+  //   };
+  // }, []);
 
   return (
     <ThemeProvider theme={DarkTheme}>
