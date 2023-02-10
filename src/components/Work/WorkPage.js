@@ -72,7 +72,7 @@ const WorkPage = (props) => {
 
         <SocialIcons theme />
 
-        <Main ref={ref} variants={container} initial="hidden" animate="show">
+        <Main variants={container} initial="hidden" animate="show">
           {Work.map((d) => (
             <Card key={d.id} data={d} />
           ))}
