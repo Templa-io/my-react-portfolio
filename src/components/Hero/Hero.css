@@ -301,7 +301,6 @@ a.github {
     display: flex;
     flex-direction: column;
     align-items: center;
-    left: 2rem;
     top: 30rem;
     padding: 20px;
   }
