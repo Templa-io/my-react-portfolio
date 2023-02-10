@@ -272,10 +272,10 @@ a.github {
     transform: scale(0.8);
   }
 }
-.boost-build > :nth-child(1) {
+.boost-build.chip {
   display: flex;
 }
-.boost-build > :nth-child(2) {
+.boost-build .microchip {
   display: flex;
 }
 .right-h {
