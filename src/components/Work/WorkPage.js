@@ -29,7 +29,7 @@ const Main = styled(motion.ul)`
   left: calc(10rem + 15vw);
   height: 40vh;
   display: flex;
-  overflow-x: scroll;
+  overflow-y: scroll;
   color: white;
 `;
 
