@@ -150,8 +150,8 @@ a.github {
 
 .dpic > img {
   position: absolute;
-  width: 35rem;
-  height: 50rem;
+  width: 25rem;
+  height: 45rem;
   object-fit: cover;
   right: 12rem;
   top: 2rem;
@@ -171,8 +171,8 @@ a.github {
 }
 .dpic > :nth-child(1) {
   position: absolute;
-  width: 35rem;
-  height: 45rem;
+  width: 25rem;
+  height: 35rem;
   border: 2px solid orange;
   background-color: transparent;
   right: 15rem;
@@ -180,8 +180,8 @@ a.github {
 }
 .dpic > :nth-child(2) {
   position: absolute;
-  width: 35rem;
-  height: 45rem;
+  width: 25rem;
+  height: 35rem;
   right: 7rem;
   top: 4rem;
   background: var(--planCard);
