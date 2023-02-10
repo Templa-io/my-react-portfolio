@@ -300,13 +300,13 @@ a.github {
 .dpic > :nth-child(2) {
   display: block;
   bottom: 0;
-  left: 0;
-  width: 20rem;
+  left: 10;
+  width: 15rem;
   height: 25rem;
 }
 .dpic > img {
   top: 3rem;
-  left: 3rem;
+  left: 10rem;
   width: 15rem;
   height: 25rem;
   padding-bottom: 5rem;
