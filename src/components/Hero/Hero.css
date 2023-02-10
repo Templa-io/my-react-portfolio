@@ -300,7 +300,7 @@ a.github {
   .socials {
     display: flex;
     align-items: center;
-    left: 2rem;
+
     top: 50rem;
     padding: 20px;
   }
