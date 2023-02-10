@@ -64,7 +64,7 @@ const WorkPage = (props) => {
     let element = ref.current;
 
     const rotate = () => {
-      element.style.transform = `translateY(${-window.pageYOffset}px)`;
+      element.style.transform = `translateX(${-window.pageYOffset}px)`;
     };
 
     window.addEventListener("scroll", rotate);
@@ -83,17 +83,10 @@ const WorkPage = (props) => {
 
         <SocialIcons theme />
         <Center>
-          <Grid>
-            <Main
-              ref={ref}
-              variants={container}
-              initial="hidden"
-              animate="show"
-            >
-              {Work.map((d) => (
-                <Card key={d.id} data={d} />
-              ))}
-            </Main>
+          <Grid ref={ref} variants={container} initial="hidden" animate="show">
+            {Work.map((d) => (
+              <Card key={d.id} data={d} />
+            ))}
           </Grid>
         </Center>
         <BigTitlte text="WORK" top="-8%" right="20%" />
