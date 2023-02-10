@@ -271,14 +271,6 @@ a.github {
     align-self: center;
     transform: scale(0.8);
   }
-
-}
-.boost-build > :nth-child(1) {
-  display: flex;
-}
-.boost-build > :nth-child(2) {
-  width: 15rem;
-}
   .right-h {
     position: relative;
     flex-direction: column;
@@ -363,5 +355,4 @@ a.github {
   .first-div > span:nth-child(2) {
     padding: 0 1rem;
   }
-  
 }
