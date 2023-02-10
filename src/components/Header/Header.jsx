@@ -46,7 +46,7 @@ const Header = () => {
           </motion.li>
 
           <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
-            <a href="https://link.medium.com/VD7l7xmo9wb" target="_blank">
+            <a href="https://medium.com/@zephaniahsefuoduori" target="_blank">
               Blog
             </a>
           </motion.li>
