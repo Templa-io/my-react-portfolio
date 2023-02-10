@@ -289,7 +289,6 @@ a.github {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  right: 5rem;
 }
 
 .dpic > :nth-child(1) {
@@ -308,7 +307,7 @@ a.github {
 .dpic > img {
   position: relative;
   top: 3rem;
-  right: 0;
+  right: 3rem;
   width: 20rem;
   height: 30rem;
   padding-bottom: 5rem;
