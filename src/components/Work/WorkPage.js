@@ -14,6 +14,17 @@ import BigTitlte from "../../subComponents/BigTitlte";
 import Button from "../../subComponents/Button";
 import { NavLink } from "react-router-dom";
 
+const Center = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+`;
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
+  grid-gap: calc(1rem + 2vw);
+`;
 const Box = styled.div`
   background-color: var(--planCard);
 
@@ -53,7 +64,7 @@ const WorkPage = (props) => {
     let element = ref.current;
 
     const rotate = () => {
-      element.style.transform = `translateY(${-window.pageXOffset}px)`;
+      element.style.transform = `translateY(${-window.pageYOffset}px)`;
     };
 
     window.addEventListener("scroll", rotate);
@@ -71,13 +82,20 @@ const WorkPage = (props) => {
         />
 
         <SocialIcons theme />
-
-        <Main ref={ref} variants={container} initial="hidden" animate="show">
-          {Work.map((d) => (
-            <Card key={d.id} data={d} />
-          ))}
-        </Main>
-
+        <Center>
+          <Grid>
+            <Main
+              ref={ref}
+              variants={container}
+              initial="hidden"
+              animate="show"
+            >
+              {Work.map((d) => (
+                <Card key={d.id} data={d} />
+              ))}
+            </Main>
+          </Grid>
+        </Center>
         <BigTitlte text="WORK" top="-8%" right="20%" />
       </Box>
     </ThemeProvider>
