@@ -175,20 +175,6 @@ const Hero = (props) => {
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </motion.a>
-          <Line
-            color={props.theme}
-            initial={{
-              height: 0,
-            }}
-            animate={{
-              height: "8rem",
-            }}
-            transition={{
-              type: "spring",
-              duration: 1,
-              delay: 0.8,
-            }}
-          />
         </div>
 
         <div className="dpic">
